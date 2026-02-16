@@ -6,7 +6,6 @@ import { UsersModule } from './users/users.module';
 import { MessagesModule } from './messages/messages.module';
 import { GroupsModule } from './groups/groups.module';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { TypeORMError } from 'typeorm';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
 @Module({
