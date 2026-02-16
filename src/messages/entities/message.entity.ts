@@ -21,7 +21,7 @@ export class Message {
   senderId: string;
 
   @Column({ nullable: true })
-  recieverId: string;
+  receiverId: string;
 
   @Column({ nullable: true })
   groupId: string;

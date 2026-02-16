@@ -1,10 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { privateDecrypt } from 'crypto';
 import { User } from './entities/user.entity';
 import { Repository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
-import { RegisterDto } from 'src/auth/dto/register.dto';
-import { NotFoundError, throwError } from 'rxjs';
 
 @Injectable()
 export class UsersService {
